@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Name": "Alt-F4 Desktop",
+        "Description": "Shows the shutdown screen, when invoking Alt-F4 on the Desktop",
+        "Icon": "preferences-system-windows",
+        
+        "Authors": [
+            {
+                "Email": "micha4w@gmail.com",
+                "Name": "micha4w"
+            }
+        ],
+        "Id": "alt-f4-desktop",
+        "Version": "1.0",
+        "License": "GPLv3",
+        "Website": "https://github.com/micha4w/"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
