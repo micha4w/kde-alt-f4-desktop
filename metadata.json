@@ -11,7 +11,7 @@
             }
         ],
         "Id": "alt-f4-desktop",
-        "Version": "1.0",
+        "Version": "1.0.0",
         "License": "GPLv3",
         "Website": "https://github.com/micha4w/"
     },
