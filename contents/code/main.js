@@ -1,8 +1,8 @@
 registerShortcut("Alt-F4-Desktop", "Close Window or show Logout Option", "Alt+F4", function() {
-    if (workspace.activeClient.desktopWindow) {
-        callDBus("org.kde.ksmserver", "/KSMServer", "org.kde.KSMServerInterface", "logout", 1, 2, 3)
+    if (workspace.activeWindow.desktopWindow) {
+        callDBus("org.kde.LogoutPrompt", "/LogoutPrompt", "", "promptLogout")
     } else {
-        workspace.activeClient.closeWindow()
+        workspace.activeWindow.closeWindow()
     }
 })
 
