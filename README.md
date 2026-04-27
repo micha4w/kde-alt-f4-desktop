@@ -1,4 +1,7 @@
 # alt-f4-desktop
+> [!IMPORTANT]
+> Adds a new Shortcut named `Close Window or show Logout Option`, you need to set the Shortcut to Alt-F4 Manually.
+
 Not much to it, read [main.js](contents/code/main.js)
 
 ## Install
